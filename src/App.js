@@ -19,6 +19,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <Servicios/>
+        <Soluciones/>
       </div>
     </div>
   );

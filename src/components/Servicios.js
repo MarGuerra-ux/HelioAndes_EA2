@@ -15,9 +15,12 @@ function CardServicios() {
     return (        
         <div className="container mt-3">
             <div className="mt-3 mb-4">
-                <h1>Servicios</h1>
+                <h2>Servicios</h2>
+                <p className="text-muted">
+                    Estudio energético, instalación certificada, monitoreo y mantenición
+                </p>
             </div>
-            <div className="row">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col-lg-3">
                     <Card style={{ width: '18rem' }} className="shadow position-relative overflow-hidden">
                         <img src={Icono1} className="marca-agua"></img>
@@ -59,7 +62,7 @@ function CardServicios() {
                         <img src={Icono3} className="marca-agua"></img>
                         <Card.Body>
                             <BsTools className="icono-card icono-mantencion"/>
-                            <Card.Title className="texto-card">Mantenimiento</Card.Title>
+                            <Card.Title className="texto-card">Mantención</Card.Title>
                             <Card.Text>
                                 Ofrecemos planes de limpieza y revisión periódica para garantizar la máxima producción y extender la vida útil de todos tus equipos solares.
                             </Card.Text>                            

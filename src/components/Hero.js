@@ -2,7 +2,7 @@ import React from "react";
 import Imagen from '../assets/images/energia-solar.jpg'
 function Hero() {
   return (
-    <section id="inicio" className="py-5 bg-light">
+    <section id="inicio" className="py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-6 text-center text-md-start">
