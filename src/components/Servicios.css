@@ -1,0 +1,47 @@
+/* Ícono react pequeño en esquina */
+.icono-card {
+  font-size: 2.2rem;        /* tamaño del ícono */            
+  position: absolute;       /* para colocarlo dentro del Card */
+  top: 15px;                /* margen desde arriba */
+  left: 10px;              /* margen desde la derecha */
+  z-index: 2;           /* por encima de la marca de agua */
+}
+
+/* Marca de agua centrada al fondo */
+.marca-agua {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  opacity: 0.20;        /* nivel de transparencia */
+  z-index: 0;           /* detrás del texto */
+  pointer-events: none; /* no bloquea clics */
+}
+
+/* Capa del texto encima de la marca de agua */
+.card .card-body {
+  position: relative;
+  z-index: 1;
+}
+
+
+.texto-card {
+  margin-top: 45px !important;
+}
+
+.icono-energia {
+  color: #f4b400; 
+}
+
+.icono-certificada {
+  color: #0d6efd; 
+}
+
+.icono-monitoreo {
+  color: #198754; 
+}
+
+.icono-mantencion {
+  color: #dc3545; 
+}
