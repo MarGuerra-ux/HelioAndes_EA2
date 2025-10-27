@@ -1,6 +1,5 @@
 import React from "react";
 import './Testimonios.css';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function Testimonios() {
@@ -9,7 +8,7 @@ function Testimonios() {
             <div className="mt-6 mb-4">
                 <h2 className="fw-bold">Testimonios</h2>
                 <p className="text-muted">
-                    Clientes que ya confian en HelioAndes.
+                    Clientes que ya confían en HelioAndes.
                 </p>
             </div>
             <div className="row row-cols-1 row-cols-md-3">
@@ -43,7 +42,7 @@ function Testimonios() {
                         </div>
                         <Card.Body>                            
                             <Card.Text className="text-center">
-                                “Instalación rapida y ahorro visible en la primera boleta.”
+                                “Instalación rápida y ahorro visible en la primera boleta.”
                             </Card.Text>
                         </Card.Body>
                     </Card>
