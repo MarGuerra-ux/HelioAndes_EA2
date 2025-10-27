@@ -8,7 +8,7 @@ function Planes() {
             <div className="mt-6 mb-4">
                 <h2 className="fw-bold">Planes</h2>
                 <p className="text-muted">
-                    Elije el plan que se ajusta a tu proyecto.
+                    Elige el plan que se ajusta a tu proyecto.
                 </p>
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -24,7 +24,7 @@ function Planes() {
                                 <li>Monitoreo Básico</li>
                                 </ul>
                             </Card.Text>
-                            <Button variant="primary">Solicitar Evaluación</Button>
+                            <Button href="#contacto" variant="primary">Solicitar Evaluación</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -40,7 +40,7 @@ function Planes() {
                                 <li>Monitoreo Avanzado</li>
                                 </ul>
                             </Card.Text>
-                            <Button variant="primary">Solicitar Evaluación</Button>
+                            <Button href="#contacto" variant="primary">Solicitar Evaluación</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -56,7 +56,7 @@ function Planes() {
                                 <li>Soporte Preferente</li>
                                 </ul>
                             </Card.Text>
-                            <Button variant="primary">Solicitar Evaluación</Button>
+                            <Button href="#contacto" variant="primary">Solicitar Evaluación</Button>
                         </Card.Body>
                     </Card>
                 </div>

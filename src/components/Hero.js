@@ -20,14 +20,15 @@ function Hero() {
               Descargar Catálogo
             </a>
           </div>
-          
-            <div className="col-12 col-md-6 text-center">
-              <img src={Imagen} alt="Sistema solar HelioAndes" className="img-fluid rounded" />
-            </div>
-          
+
+          <div className="col-12 col-md-6 text-center">
+            <img src={Imagen} alt="Sistema solar HelioAndes" className="img-fluid rounded" />
+          </div>
         </div>
       </div>
+
     </section>
+    
   );
 }
 
