@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Servicios from './components/Servicios';
@@ -16,33 +15,40 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="">
-      <Navbar/>
-      <div className="container">        
-        <Hero/>
+      <Navbar />
+      <div className="container">
+        <div className='pt-5'>
+          <section id='home'>
+            <Hero />
+          </section>
+        </div>
         <section id='servicios'>
-          <Servicios/>
-        </section>           
+          <Servicios />
+        </section>
         <section id='soluciones'>
-          <Soluciones/>
-        </section>        
+          <Soluciones />
+        </section>
         <section id='demo-calculadora' className='py-5 bg-light'>
           <div className='container'>
-            <Calculadora/>
+            <Calculadora />
           </div>
         </section>
         <section id='planes'>
-          <Planes/>
-        </section>   
+          <Planes />
+        </section>
         <section id='testimonios'>
-          <Testimonios/>
-        </section>  
-        <section id='faqs'>
-          <FAQ/>
-        </section>        
+          <Testimonios />
+        </section>
+        <section id='faq'>
+          <FAQ />
+        </section>
+        <section id='contacto'>
+          <Contacto />
+        </section>
       </div>
       <section id='footer'>
-          <Footer/>
-        </section>
+        <Footer />
+      </section>
     </div>
   );
 }

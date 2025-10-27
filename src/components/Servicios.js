@@ -1,6 +1,5 @@
 import React from "react";
 import './Servicios.css';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Icono1 from '../assets/images/icono-energia.png';
 import Icono2 from '../assets/images/icono-certificada.png';
@@ -17,13 +16,13 @@ function CardServicios() {
             <div className="mt-3 mb-4">
                 <h2 className="fw-bold">Servicios</h2>
                 <p className="text-muted">
-                    Estudio energético, instalación certificada, monitoreo y mantenición
+                    Estudio energético, instalación certificada, monitoreo y mantención
                 </p>
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col-lg-3">
                     <Card className="shadow position-relative overflow-hidden">
-                        <img src={Icono1} className="marca-agua"></img>
+                        <img src={Icono1} className="marca-agua" alt=""></img>
                         <Card.Body>
                             <RxLightningBolt className="icono-card icono-energia"/>                            
                             <Card.Title  className="texto-card">Estudio Energético</Card.Title>
@@ -35,7 +34,7 @@ function CardServicios() {
                 </div>
                 <div className="col-lg-3">
                     <Card className="shadow position-relative overflow-hidden">
-                        <img src={Icono2} className="marca-agua"></img>
+                        <img src={Icono2} className="marca-agua" alt=""></img>
                         <Card.Body>
                             <LiaCertificateSolid className="icono-card icono-certificada"/>
                             <Card.Title className="texto-card">Instalación Certificada</Card.Title>
@@ -47,7 +46,7 @@ function CardServicios() {
                 </div>
                 <div className="col-lg-3">
                     <Card className="shadow position-relative overflow-hidden">
-                        <img src={Icono4} className="marca-agua"></img>
+                        <img src={Icono4} className="marca-agua" alt=""></img>
                         <Card.Body>
                             <TbDeviceAnalytics className="icono-card icono-monitoreo"/>
                             <Card.Title className="texto-card">Monitoreo</Card.Title>
@@ -59,7 +58,7 @@ function CardServicios() {
                 </div>
                 <div className="col-lg-3">
                     <Card className="shadow position-relative overflow-hidden">
-                        <img src={Icono3} className="marca-agua"></img>
+                        <img src={Icono3} className="marca-agua" alt=""></img>
                         <Card.Body>
                             <BsTools className="icono-card icono-mantencion"/>
                             <Card.Title className="texto-card">Mantención</Card.Title>

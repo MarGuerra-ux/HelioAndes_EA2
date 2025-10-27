@@ -2,18 +2,15 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Imagen from '../assets/images/helioandes.png';
 
 function NavbarHome() {
   return (
-    <Navbar expand="lg" bg="light" variant="light">
-      {/* Mantiene ancho completo */}
-      <Container fluid className="px-0">
-        {/* Contenedor interno para alinear con el contenido */}
+    <Navbar expand="lg" bg="light" variant="light" fixed="top">      
+      <Container fluid className="px-0">        
         <Container>
           <div className="d-flex align-items-center justify-content-between w-100">
-            <img src={Imagen} width={250} alt="HelioAndes" />
+            <img src={Imagen} width={250} alt="HelioAndes"/>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

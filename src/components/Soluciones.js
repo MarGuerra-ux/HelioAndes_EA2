@@ -42,7 +42,7 @@ function CardSoluciones() {
                             <BsBuildingsFill className="icono-card icono-certificada" />
                             <Card.Title className="texto-card">PyME 10-20 kW</Card.Title>
                             <Card.Text>
-                                 Soluciones diseñadas para operaciones con alta demanda energética. Permiten reducir costos sin afectar la productividad.
+                                Soluciones diseñadas para operaciones con alta demanda energética. Permiten reducir costos sin afectar la productividad.
                             </Card.Text>
                             <Button variant="primary">Solicitar asesoría</Button>
                         </Card.Body>

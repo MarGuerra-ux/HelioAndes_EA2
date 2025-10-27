@@ -2,7 +2,7 @@ import React from "react";
 import Imagen from '../assets/images/energia-solar.jpg'
 function Hero() {
   return (
-    <section id="inicio" className="py-5">
+    <section id="home" className="py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-6 text-center text-md-start">
@@ -21,11 +21,7 @@ function Hero() {
             </a>
           </div>
           <div className="col-12 col-md-6 text-center">
-            <img
-              src={require("../assets/images/energia-solar.jpg")}
-              alt="Sistema solar HelioAndes"
-              className="img-fluid rounded"
-            />
+            <img src={Imagen} alt="Sistema solar HelioAndes" className="img-fluid rounded"/>
           </div>
         </div>
       </div>
