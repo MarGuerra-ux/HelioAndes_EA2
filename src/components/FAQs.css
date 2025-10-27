@@ -1,0 +1,86 @@
+/* Tarjeta grande de la sección (similar a tu estilo anterior) */
+.faq-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.08);
+  padding: 28px 24px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Título / subtítulo */
+.faq-card h2 {
+  margin-bottom: 6px;
+}
+.faq-card p.text-muted {
+  margin-bottom: 18px;
+}
+
+/* ===========================
+   ESTILO DEL ACCORDION
+   (sobrescribe Bootstrap)
+   =========================== */
+
+.faq-accordion .accordion-item {
+  border: none;                 /* sin borde estándar */
+  background: transparent;      /* fondo transparente: lo da el button */
+  margin-bottom: 12px;          /* separación entre items */
+  border-radius: 12px;          /* para que los “botones” luzcan redondeados */
+  overflow: hidden;             /* respeta el border-radius */
+}
+
+/* “Botón” del item (cabecera) */
+.faq-accordion .accordion-button {
+  display: flex;
+  justify-content: center;      /* título centrado como tu versión anterior */
+  text-align: center;
+  font-weight: 600;
+  color: #0b5ed7;               /* azul */
+  background-color: #f6f9ff;    /* pastel */
+  border: none;
+  padding: 14px 18px;
+  border-radius: 12px !important;
+  box-shadow: none;             /* sin sombras azules de focus por defecto */
+  transition: background-color .2s ease, transform .2s ease;
+}
+
+/* Hover del encabezado */
+.faq-accordion .accordion-button:hover {
+  background-color: #e9f2ff;
+  transform: translateY(-1px);
+}
+
+/* Estado ABIERTA (no collapsed) */
+.faq-accordion .accordion-button:not(.collapsed) {
+  color: #0b5ed7;
+  background-color: #dcebff;    /* azul muy claro (como tu captura) */
+  box-shadow: none;
+}
+
+/* Quita el borde/box-shadow azul al hacer focus con teclado */
+.faq-accordion .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+/* El “chevron” (flecha) mantiene color oscuro para contraste */
+.faq-accordion .accordion-button::after {
+  filter: grayscale(0) opacity(0.8);
+}
+
+/* Cuerpo de la respuesta */
+.faq-accordion .accordion-body {
+  background-color: #ffffff;
+  color: #444;
+  line-height: 1.65;
+  padding: 16px 18px 18px 18px;
+  border-radius: 0 0 12px 12px;  /* continuidad del redondeado */
+  border-top: 1px solid rgba(0,0,0,.05); /* divisor sutil */
+}
+
+/* Para que el ancho sea consistente con el resto de la página */
+@media (min-width: 992px) {
+  .faq-card {
+    max-width: 1100px; /* ajusta para alinearlo con tus otros containers */
+  }
+}
