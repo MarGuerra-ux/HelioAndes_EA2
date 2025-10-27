@@ -26,7 +26,7 @@ function CalculadoraIntegral() {
 
     //boton para reiniciar los campos
 
-    function reiniciarFormulario() {
+    function reiniciarCampos() {
         setPotenciaPanel(0);
         setCantidadPaneles(0);
         setInversor(0);
@@ -182,7 +182,7 @@ function CalculadoraIntegral() {
                 {/* ENCABEZADO */}
                 <div className="row mb-5">
                     <div className="col-lg-12 text-center bg-primary-subtle text-dark rounded py-3 shadow-sm">
-                        <h3>DEMO Calculadora</h3>
+                        <h2 className="fw-bold">DEMO Calculadora</h2>
                     </div>
                 </div>
 
@@ -254,11 +254,7 @@ function CalculadoraIntegral() {
                                     <small className="text-muted">Si es 10 = 10%</small>
                                 </div>
 
-                                <div className="mt-4 text-start">
-                                    <button className="btn btn-info text-white" onClick={reiniciarFormulario}>
-                                        Reiniciar
-                                    </button>
-                                </div>
+                                
 
                             </div>
 
@@ -390,7 +386,7 @@ function CalculadoraIntegral() {
                                     <td>${cuotaAPagar.toLocaleString()}</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Total Final</strong></td>   
+                                    <td><strong>Total Final</strong></td>
                                     <td><strong>${totalFinal.toLocaleString()}</strong></td>
                                 </tr>
                             </tbody>
@@ -399,6 +395,12 @@ function CalculadoraIntegral() {
                         <p className="text-muted small text-center mt-2">
                             Valores referenciales para producto requerido por el cliente
                         </p>
+                    </div>
+
+                    <div>
+                        <button className="btn btn-info reiniciar-btn" onClick={reiniciarCampos}>
+                                    Reiniciar
+                                </button>
                     </div>
 
                 </div>
