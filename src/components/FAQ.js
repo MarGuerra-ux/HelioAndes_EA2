@@ -18,7 +18,7 @@ function FAQs() {
     <div className="faq-bg">
       <div className="faq-section container">
         <div className="text-center mb-4">
-          <h3>FAQs</h3>
+          <h2 className="fw-bold">FAQs</h2>
           <p className="text-muted">
             Resolvemos las dudas más comunes sobre energía solar y eficiencia energética.
           </p>

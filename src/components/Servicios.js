@@ -15,7 +15,7 @@ function CardServicios() {
     return (        
         <div className="container mt-3">
             <div className="mt-3 mb-4">
-                <h2>Servicios</h2>
+                <h2 className="fw-bold">Servicios</h2>
                 <p className="text-muted">
                     Estudio energético, instalación certificada, monitoreo y mantenición
                 </p>
