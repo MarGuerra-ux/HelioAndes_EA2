@@ -22,7 +22,7 @@ function CardServicios() {
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col-lg-3">
-                    <Card style={{ width: '18rem' }} className="shadow position-relative overflow-hidden">
+                    <Card className="shadow position-relative overflow-hidden">
                         <img src={Icono1} className="marca-agua"></img>
                         <Card.Body>
                             <RxLightningBolt className="icono-card icono-energia"/>                            
@@ -34,7 +34,7 @@ function CardServicios() {
                     </Card>
                 </div>
                 <div className="col-lg-3">
-                    <Card style={{ width: '18rem' }} className="shadow position-relative overflow-hidden">
+                    <Card className="shadow position-relative overflow-hidden">
                         <img src={Icono2} className="marca-agua"></img>
                         <Card.Body>
                             <LiaCertificateSolid className="icono-card icono-certificada"/>
@@ -46,7 +46,7 @@ function CardServicios() {
                     </Card>
                 </div>
                 <div className="col-lg-3">
-                    <Card style={{ width: '18rem' }} className="shadow position-relative overflow-hidden">
+                    <Card className="shadow position-relative overflow-hidden">
                         <img src={Icono4} className="marca-agua"></img>
                         <Card.Body>
                             <TbDeviceAnalytics className="icono-card icono-monitoreo"/>
@@ -58,13 +58,13 @@ function CardServicios() {
                     </Card>
                 </div>
                 <div className="col-lg-3">
-                    <Card style={{ width: '18rem' }} className="shadow position-relative overflow-hidden">
+                    <Card className="shadow position-relative overflow-hidden">
                         <img src={Icono3} className="marca-agua"></img>
                         <Card.Body>
                             <BsTools className="icono-card icono-mantencion"/>
                             <Card.Title className="texto-card">Mantención</Card.Title>
                             <Card.Text>
-                                Ofrecemos planes de limpieza y revisión periódica para garantizar la máxima producción y extender la vida útil de todos tus equipos solares.
+                                Ofrecemos los mejores planes de limpieza y revisión periódica para garantizar la máxima producción y extender la vida útil de todos tus equipos solares.
                             </Card.Text>                            
                         </Card.Body>
                     </Card>

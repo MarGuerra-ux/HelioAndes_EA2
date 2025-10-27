@@ -1,0 +1,35 @@
+/* Fondo general celeste */
+.calculadora-bg {
+  background-color: #eaf6fb; /* celeste suave */
+  min-height: 100vh;
+}
+
+/* Bloques de formulario y resumen */
+.calculadora-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+ 
+}
+
+
+
+/* Encabezado */
+.bg-primary-subtle {
+  background-color: #dde9f8 !important;
+}
+
+/* Ajuste  de tabla */
+.table td {
+  padding: 0.5rem 1rem;
+  vertical-align: middle;
+}
+
+.table-borderless td {
+  border: none;
+}
+
+.fw-bold.bg-light td {
+  background-color: #f7f7f7 !important;
+}

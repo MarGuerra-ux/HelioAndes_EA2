@@ -12,14 +12,30 @@ import FAQ from './components/FAQ';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div className="">
       <div className="container">
         <Navbar/>
         <Hero/>
-        <Servicios/>
-        <Soluciones/>
+        <section id='servicios'>
+          <Servicios/>
+        </section>           
+        <section id='soluciones'>
+          <Soluciones/>
+        </section>        
+        <section id='demo-calculadora' className='py-5 bg-light'>
+          <div className='container'>
+            <Calculadora/>
+          </div>
+        </section>
+        <section id='planes'>
+          <Planes/>
+        </section>   
+        <section id='testimonios'>
+          <Testimonios/>
+        </section>  
       </div>
     </div>
   );
