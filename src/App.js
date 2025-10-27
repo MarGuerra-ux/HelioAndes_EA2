@@ -16,8 +16,8 @@ import FAQs from './components/FAQ';
 function App() {
   return (
     <div className="">
-      <div className="container">
-        <Navbar/>
+      <Navbar/>
+      <div className="container">        
         <Hero/>
         <section id='servicios'>
           <Servicios/>
@@ -40,6 +40,9 @@ function App() {
           <FAQs/>
         </section>  
       </div>
+      <section id='footer'>
+          <Footer/>
+        </section>
     </div>
   );
 }
