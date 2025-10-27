@@ -8,16 +8,16 @@ import Soluciones from './components/Soluciones';
 import Calculadora from './components/CalculadoraIntegral';
 import Planes from './components/Planes';
 import Testimonios from './components/Testimonios';
+import FAQ from './components/FAQ';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
-import FAQs from './components/FAQ';
 
 
 function App() {
   return (
     <div className="">
-      <div className="container">
-        <Navbar/>
+      <Navbar/>
+      <div className="container">        
         <Hero/>
         <section id='servicios'>
           <Servicios/>
@@ -35,13 +35,18 @@ function App() {
         </section>   
         <section id='testimonios'>
           <Testimonios/>
-        </section>
-        <section id='faqs'>
-          <FAQs/>
         </section>  
+        <section id='faqs'>
+          <FAQ/>
+        </section>        
       </div>
+      <section id='footer'>
+          <Footer/>
+        </section>
     </div>
   );
 }
 
 export default App;
+
+
