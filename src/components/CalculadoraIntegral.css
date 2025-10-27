@@ -50,13 +50,13 @@
 .reiniciar-btn {
   display: block;
   margin-top: 10px;
-  margin-left: 25%; /* lo mantiene a la izquierda */
+  margin-left: 17%; /* lo mantiene a la izquierda */
 }
 
 @media (max-width: 768px) {
   .reiniciar-btn {
     width: 100%; /* opcional: ocupa todo el ancho en móvil */
     text-align: left;
-    margin-left: 25%;
+    margin-left: 15%;
   }
 }

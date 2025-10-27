@@ -242,10 +242,10 @@ function CalculadoraIntegral() {
                                     <label className="form-label">Plan de Pago</label>
                                     <select className="form-select" value={planPago} onChange={(e) => setPlanPago(e.target.value)}>
                                         <option>Seleccione un Tipo</option>
-                                        <option value={1}>Contado -> tasa 0, Cuotas 1 </option>
-                                        <option value={2}>6 Cuotas -> 1.2% mensual</option>
-                                        <option value={3}>12 Cuotas -> 1.1% mensual</option>
-                                        <option value={3}>24 Cuotas -> 1.0% mensual</option>
+                                        <option value={1}>Contado - tasa 0, Cuotas 1 </option>
+                                        <option value={2}>6 Cuotas - 1.2% mensual</option>
+                                        <option value={3}>12 Cuotas - 1.1% mensual</option>
+                                        <option value={4}>24 Cuotas - 1.0% mensual</option>
                                     </select>
                                 </div>
                                 <div className="form-group mt-3">
@@ -254,7 +254,6 @@ function CalculadoraIntegral() {
                                     <small className="text-muted">Si es 10 = 10%</small>
                                 </div>
 
-                                
 
                             </div>
 

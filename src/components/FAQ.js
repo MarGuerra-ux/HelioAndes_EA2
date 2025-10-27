@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../FAQs.css';
+import './FAQs.css';
 
 function FAQs() {
   // Estado para controlar qué pregunta está abierta
